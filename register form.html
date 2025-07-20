@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-image: url(image2.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: left;
+            display: flex;
+          justify-content: center; 
+          padding-top: 70px;
+          font-size: 20px;
+        }
+        .registration-form{
+            background-color: aliceblue;
+            padding: 8px 80px;
+            border-radius: 5px;
+            background-color: bisque;
+            box-shadow: 0 0 20px black;
+            border: 5px solid rgb(189, 63, 164);
+          
+        }
+        h2{
+            text-align: center;
+        }
+        .registration-form input[type="button"]{
+            background-color: rgb(199, 243, 116);
+        }
+         .registration-form input[type="button"]:hover{
+            background-color: rgb(247, 112, 112);
+        }
+        .nav{
+                background-color: aliceblue;
+                overflow: hidden;
+                display: flex;
+                justify-content: right;
+                padding: 8px;
+                position: fixed;
+                width: 100%;
+                top:0;
+            }
+            .nav a{
+                padding: 10px 20px;
+                font-size: 16px;
+                margin:0px 6px;
+            }
+
+    </style>
+    <body>
+        <div class="nav">
+            <a href="#home">home</a>
+            <a href="#login">login</a>
+            <a href="#registration">registration</a>
+            <a href="#contact">contact</a>
+            <a href="#about us">about us</a>
+        </div>
+        <form>
+        <div class="registration-form">
+        <h2>register form</h2>
+        <lable for="n">NAME</lable><br>
+        <input type="text" placeholder="enter name " id="name" name="name"  value=""><br>
+        <lable for="mi">GMAIL</lable><br>
+        <input type="text" id="mi" name="mi"placeholder="enter gmail" value=""><br>
+        <lable for="password">PASSWORD</lable><br>
+        <input type="password" id="password" name="p"placeholder="password" value=""><br>
+         
+        <lable for="c">COLLEGE</lable><br>
+        <input type="text" id="c" name="c"placeholder="college name " value=""><br>
+        <lable for="m">MOBILE NUMBER</lable><br>
+        <input type="text" id="m" name="m" placeholder="+91" value=""><br>
+        <lable for="r">REG ID</lable><br>
+        <input type="text" id="r" name="r" placeholder="EX-51132....." value=""><br>
+        <lable for="d">DOB</lable><br>
+        <input type="date" id="d" name="d" value=""><br>
+    <!-- Dropdown -->
+    <div class="form-section">
+        <label for="department">Choose your department:</label><br>
+        <select id="department" name="department">
+            <option value="">--Select Department--</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="eee">EEE</option>
+            <option value="it">IT</option>
+            <option value="adis">ADIS</option>
+        </select>
+    </div>
+        <input type="button" value="register"><br>
+    </form>
+    <a href="login form.html">login</a>
+</script>
+    </div>
+    </body>
+</head>
+</html>
+
